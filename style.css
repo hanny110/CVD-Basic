@@ -346,6 +346,11 @@ img {
     display: flex;
     justify-content: center;
   }
+  .contact p {
+  font-size: 1.75rem;
+  color: var(--light);
+  text-align:center;
+}
 }
 /* SERVICES */
 
@@ -354,7 +359,6 @@ img {
 }
 
 /* .packages .packages__wrapper{
-  max-width: 120rem;
   width: 100%;
   margin:0 auto;
 } */
@@ -497,11 +501,11 @@ img {
   width: 40rem;
 }
 .packages .packages__text h2 {
-  font-size: 5rem;
+  font-size: 2.75rem;
   font-weight: 600;
   color: var(--primary);
-  line-height: 7rem;
-  margin-bottom: 8rem;
+  line-height: 1rem;
+  margin-bottom: 3rem;
   text-align:center;
 }
 .packages img{
@@ -525,8 +529,8 @@ img {
   margin: 0 auto;
 }
 .packages .packages__item li {
-  font-size: 2rem;
-  height: 20rem;
+  font-size: 1.5rem;
+  height: 12rem;
   text-align: justify;
 }
 .packages .packages__item:nth-child(odd) ul {
@@ -536,11 +540,11 @@ img {
   color: var(--light);
 }
 .packages .packages__item a {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: var(--primary);
   position: absolute;
   bottom: -8rem;
-  left: 45%;
+  left: 47%;
 }
 .packages__item:last-child a {
   display: none;
